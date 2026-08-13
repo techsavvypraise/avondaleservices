@@ -1,0 +1,52 @@
+AVONDALE FINAL IMAGE PACK
+
+SERVICES
+services/remediation.jpg <- word_media_image11-1-scaled.jpeg
+services/site-characterization.jpg <- word_media_image3.jpeg
+services/construction.jpg <- construction.png
+services/dredging.jpg <- Dredger-1.jpg
+services/equipment.jpg <- image008.png
+services/medical-equipment.jpg <- DSC_7501-scaled-1.jpg
+services/vessel-construction.jpg <- boat-collection.jpg
+services/environmental-restoration.jpg <- weedharvester.png
+
+PROJECTS
+projects/ajeokpori-ogale.jpg <- word_media_image11-1-scaled.jpeg
+projects/ajeokpori-ogale-2.jpg <- word_media_image10-1-scaled.jpeg
+projects/ajeokpori-ogale-3.jpg <- word_media_image9-1-scaled.jpeg
+projects/nkeleoken-alode.jpg <- Site-Clearing_10.jpg
+projects/nkeleoken-alode-2.jpg <- Biocell-Construction_8.jpg
+projects/nkeleoken-alode-3.jpg <- Installation-of-HDPE_6.jpg
+projects/imo-housing-road.jpg <- 5011b6d3-01cf-4e09-8608-3c7317d8968f.jpg
+projects/imo-housing-road-2.jpg <- 77578da0-6ce2-4185-9327-c667cef1145e.jpg
+projects/imo-housing-road-3.jpg <- 9de2c5d4-8897-480b-afb7-533cd5f53aa9.jpg
+projects/uniport-road.jpg <- WhatsApp-Image-2023-04-26-at-11.25.29-AM-3.jpeg
+projects/uniport-road-2.jpg <- WhatsApp-Image-2023-04-26-at-11.25.30-AM.jpeg
+projects/uniport-road-3.jpg <- WhatsApp-Image-2023-04-26-at-11.25.33-AM.jpeg
+projects/fmc-yenagoa-interns.jpg <- WhatsApp-Image-2023-04-26-at-10.56.52-AM-2.jpeg
+projects/fmc-yenagoa-interns-2.jpg <- IMG-20141113-WA0001.jpg
+projects/fmc-yenagoa-interns-3.jpg <- Build-6.jpg
+projects/hiv-malaria-centre.jpg <- Build-5.jpg
+projects/hiv-malaria-centre-2.jpg <- Build-4.jpg
+projects/hiv-malaria-centre-3.jpg <- Build-1.jpg
+projects/radiotherapy-centre.jpg <- DSC_7501-scaled-1.jpg
+projects/radiotherapy-centre-2.jpg <- WhatsApp-Image-2023-04-26-at-10.41.25-AM-4.jpeg
+projects/radiotherapy-centre-3.jpg <- FMC-OTUOKE-ICU-1.jpg
+projects/fmc-otuoke.jpg <- IMG-20120917-00106.jpg
+projects/fmc-otuoke-2.jpg <- IMG-20120917-00104.jpg
+projects/fmc-otuoke-3.jpg <- 062.jpg
+projects/water-weed-clearing.jpg <- weedharvester.png
+projects/water-weed-clearing-2.jpg <- IMG-20191222-WA0000-copy.jpg
+projects/water-weed-clearing-3.jpg <- IMG-20191221-WA0001-copy.jpg
+projects/canoes-fibre-boats.jpg <- DSC_1163.jpg
+projects/canoes-fibre-boats-2.jpg <- DSC_1162.jpg
+projects/canoes-fibre-boats-3.jpg <- IMG_1884.jpg
+projects/afforestation.jpg <- MALADUMBA-2.jpg
+projects/afforestation-2.jpg <- MALADUMBA-6.jpg
+projects/afforestation-3.jpg <- MALADUMBA-7.jpg
+
+ABOUT
+about/chairman-ceo.jpg <- Dr-Ayibatonye-Owei-scaled.jpg
+about/md-business-development.jpg <- Ngozika-Owei-1.jpg
+
+Note: project image filenames exactly match the current projects.ts paths. Images are selected from the supplied Avondale archive based on subject matter.
