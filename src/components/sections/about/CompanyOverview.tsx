@@ -6,11 +6,10 @@ import { company } from "@/data/company";
 
 export function CompanyOverview() {
   return (
-    <Section className="bg-white py-28">
+    <Section id="company-overview" className="bg-white py-28">
       <Container>
         <div className="grid items-center gap-16 lg:grid-cols-2">
           {/* Image */}
-
           <div className="relative">
             <div className="relative h-[600px] overflow-hidden rounded-[36px]">
               <Image
@@ -26,24 +25,18 @@ export function CompanyOverview() {
               <p className="text-sm font-semibold uppercase tracking-[0.25em] text-white/70">
                 Established
               </p>
-
-              <p className="mt-2 text-4xl font-black">
-                1994
-              </p>
+              <p className="mt-2 text-4xl font-black">1994</p>
             </div>
           </div>
 
           {/* Content */}
-
           <div>
             <p className="text-sm font-semibold uppercase tracking-[0.35em] text-[var(--primary)]">
               Company Overview
             </p>
-
             <h2 className="mt-6 text-5xl font-bold leading-tight text-slate-900">
               Delivering Engineering Excellence Across Nigeria.
             </h2>
-
             <p className="mt-8 text-lg leading-9 text-slate-600">
               {company.overview}
             </p>
@@ -58,7 +51,6 @@ export function CompanyOverview() {
                     <h3 className="text-4xl font-black text-[var(--primary)]">
                       {item.value}
                     </h3>
-
                     <p className="mt-3 text-base font-medium leading-7 text-slate-700">
                       {item.title}
                     </p>
