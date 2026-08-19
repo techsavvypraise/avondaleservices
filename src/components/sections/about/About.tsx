@@ -76,10 +76,21 @@ export function About() {
               ))}
             </div>
 
-            <div className="mt-12">
+            {/* ACTIONS */}
+            <div className="mt-12 flex flex-wrap items-center gap-4">
               <Button href="/about">
                 Learn More About Us
               </Button>
+
+              <a
+                href="/documents/avondale-company-profile.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-3 rounded-full border border-[var(--primary)] px-7 py-4 text-sm font-semibold uppercase tracking-[0.18em] text-[var(--primary)] transition-all duration-300 hover:-translate-y-1 hover:bg-[var(--primary)] hover:text-white hover:shadow-lg"
+              >
+                Download Company Profile
+                <span aria-hidden="true">→</span>
+              </a>
             </div>
           </div>
 
@@ -107,7 +118,7 @@ export function About() {
               </p>
 
               <p className="mt-3 text-lg">
-                Delivering Engineering Excellence
+                Delivering Excellence
               </p>
             </div>
 

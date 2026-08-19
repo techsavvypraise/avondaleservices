@@ -9,9 +9,9 @@ export function CTA() {
         </p>
 
         <h2 className="mx-auto mt-6 max-w-5xl text-5xl font-extrabold leading-tight text-white md:text-6xl">
-          Delivering Engineering
+          Delivering Excellence
           <br />
-          Excellence Across Nigeria.
+          Across Nigeria.
         </h2>
 
         <p className="mx-auto mt-8 max-w-3xl text-xl leading-9 text-slate-300">

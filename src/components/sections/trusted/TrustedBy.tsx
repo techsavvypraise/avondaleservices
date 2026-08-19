@@ -59,7 +59,7 @@ export function TrustedBy() {
           </p>
 
           <h2 className="mt-4 text-5xl font-bold text-slate-900">
-            Delivering Engineering Excellence Across Nigeria
+            Delivering Excellence Across Nigeria
           </h2>
 
           <p className="mt-6 text-lg leading-8 text-slate-600">

@@ -35,7 +35,7 @@ export function CompanyOverview() {
               Company Overview
             </p>
             <h2 className="mt-6 text-5xl font-bold leading-tight text-slate-900">
-              Delivering Engineering Excellence Across Nigeria.
+              Delivering Excellence Across Nigeria.
             </h2>
             <p className="mt-8 text-lg leading-9 text-slate-600">
               {company.overview}

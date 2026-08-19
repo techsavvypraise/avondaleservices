@@ -5,7 +5,15 @@ import { ProjectCard } from "./ProjectCard";
 import { projects } from "@/data/projects";
 
 export function FeaturedProjects() {
-  const featuredProjects = projects.slice(0, 3);
+  const featuredSlugs = [
+    "ajeokpori-2-ogale-remediation",
+    "nkeleoken-alode-remediation",
+    "construction-supply-marine-vessels-house-patrol",
+  ];
+
+  const featuredProjects = featuredSlugs
+    .map((slug) => projects.find((project) => project.slug === slug))
+    .filter((project): project is (typeof projects)[number] => Boolean(project));
 
   return (
     <Section className="bg-slate-50 py-28">
@@ -16,14 +24,14 @@ export function FeaturedProjects() {
           </p>
 
           <h2 className="mt-6 text-5xl font-bold leading-tight text-slate-900">
-            Engineering Projects That Deliver Results
+            Projects That Deliver Results
           </h2>
 
           <p className="mt-8 text-lg leading-9 text-slate-600">
-            From environmental remediation and healthcare infrastructure to
-            road construction and environmental restoration, our projects
-            demonstrate Avondale's commitment to engineering excellence,
-            quality delivery and sustainable development across Nigeria.
+            From environmental remediation to marine assets and infrastructure
+            development, our project portfolio reflects Avondale&apos;s
+            commitment to quality delivery, practical solutions and lasting
+            impact across Nigeria.
           </p>
         </div>
 

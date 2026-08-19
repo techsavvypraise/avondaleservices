@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+
 import { Button } from "@/components/ui/Button";
 
 interface HeroSlideProps {
@@ -25,9 +26,13 @@ interface HeroSlideProps {
       href: string;
     };
   };
+  priority?: boolean;
 }
 
-export function HeroSlide({ slide }: HeroSlideProps) {
+export function HeroSlide({
+  slide,
+  priority = false,
+}: HeroSlideProps) {
   return (
     <div className="relative h-full w-full shrink-0 overflow-hidden">
       {/* Background Image */}
@@ -35,33 +40,34 @@ export function HeroSlide({ slide }: HeroSlideProps) {
         src={slide.image}
         alt={slide.title}
         fill
-        priority
+        preload={priority}
+        loading={priority ? "eager" : "lazy"}
         className="object-cover"
-        sizes="(max-width: 768px) 100vw, 100vw"
+        sizes="100vw"
       />
 
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-900/65 to-slate-900/30" />
 
       {/* Content */}
-      <div className="relative z-20 mx-auto flex h-full max-w-7xl items-center px-8 lg:px-12">
-        <div className="grid w-full items-center gap-20 lg:grid-cols-[1.15fr_430px]">
+      <div className="relative z-20 mx-auto flex h-full max-w-7xl items-center px-6 md:px-8 lg:px-12">
+        <div className="grid w-full items-center gap-12 lg:grid-cols-[1.15fr_430px] lg:gap-20">
 
           {/* LEFT CONTENT */}
           <div className="max-w-3xl">
-            <p className="text-sm font-semibold uppercase tracking-[0.35em] text-[var(--secondary)]">
+            <p className="text-xs font-semibold uppercase tracking-[0.3em] text-[var(--secondary)] md:text-sm md:tracking-[0.35em]">
               {slide.eyebrow}
             </p>
 
-            <h1 className="mt-8 text-5xl font-black leading-[0.9] tracking-[-0.04em] text-white md:text-6xl xl:text-[5.8rem]">
+            <h1 className="mt-6 text-4xl font-black leading-[0.95] tracking-[-0.04em] text-white sm:text-5xl md:mt-8 md:text-6xl xl:text-[5.8rem]">
               {slide.title}
             </h1>
 
-            <p className="mt-8 max-w-2xl text-xl leading-9 text-white/80">
+            <p className="mt-6 max-w-2xl text-base leading-7 text-white/80 sm:text-lg md:mt-8 md:text-xl md:leading-9">
               {slide.description}
             </p>
 
-            <div className="mt-12 flex flex-wrap gap-5">
+            <div className="mt-8 flex flex-wrap gap-4 md:mt-12 md:gap-5">
               <Button href={slide.primary.href}>
                 {slide.primary.text}
               </Button>
