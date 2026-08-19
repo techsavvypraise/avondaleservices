@@ -99,7 +99,7 @@ export function About() {
           <div className="relative">
             <div className="relative h-[680px] overflow-hidden rounded-[36px] shadow-2xl">
               <Image
-                src="/images/about/about.png"
+                src="/images/about/about.jpg"
                 alt="Avondale Services & Supplies Limited"
                 fill
                 priority
